@@ -170,6 +170,24 @@ public class MovieCollection
         // prevent case sensitivity
         cast = cast.toLowerCase();
 
+        /* ArrayList<String> castList = new ArrayList<String>();
+        for (int i = 0; i < movies.size(); i++)
+        {
+            String actor = movies.get(i).getCast();
+            String [] actorList = actor.split("\\|");
+            for (int x = 0; x < actorList.length; x++)
+            {
+                if (castList.indexOf(actorList[x]) == -1 && actorList[x].indexOf(cast) == -1)
+                {
+                    castList.add(actorList[x]);
+                }
+            }
+        }
+
+        sortResults(castList);
+
+        for () */
+
         // arraylist to hold search results
         ArrayList<Movie> results = new ArrayList<Movie>();
 
